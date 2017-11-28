@@ -500,6 +500,7 @@ select,
 optgroup,
 textarea {
   font-family: inherit;
+  font-weight: inherit;
   font-size: inherit;
   line-height: inherit; }
 
@@ -1403,6 +1404,7 @@ input[type='radio']:disabled {
   background-clip: padding-box;
   font-family: inherit;
   font-size: 1rem;
+  font-weight: inherit;
   line-height: 1.5;
   color: #464a4c;
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; }
