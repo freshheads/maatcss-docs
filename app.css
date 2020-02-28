@@ -394,7 +394,7 @@ html {
   box-sizing: border-box;
   -ms-overflow-style: scrollbar;
   font-family: sans-serif;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 *, *:before, *:after {
   box-sizing: inherit; }
@@ -1517,7 +1517,6 @@ input[type='radio']:disabled {
     background-size: 50% 50%;
     pointer-events: none;
     -webkit-user-select: none;
-       -moz-user-select: none;
         -ms-user-select: none;
             user-select: none; }
   .form-choice.is-disabled .form-choice__label {
@@ -1617,6 +1616,7 @@ input[type='radio']:disabled {
   white-space: nowrap;
   -webkit-clip-path: inset(50%);
           clip-path: inset(50%); }
+
 /**
  * Only used for demo purposes, not part of the framework
  */
@@ -1640,16 +1640,16 @@ header {
 
 section {
   padding: 20px 0; }
+
 /*
 Monokai style - ported by Luigi Maselli - http://grigio.org
 */
-
 .hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: #272822; color: #ddd;
-}
+  background: #272822;
+  color: #ddd; }
 
 .hljs-tag,
 .hljs-keyword,
@@ -1657,23 +1657,19 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 .hljs-literal,
 .hljs-strong,
 .hljs-name {
-  color: #f92672;
-}
+  color: #f92672; }
 
 .hljs-code {
-  color: #66d9ef;
-}
+  color: #66d9ef; }
 
 .hljs-class .hljs-title {
-  color: white;
-}
+  color: white; }
 
 .hljs-attribute,
 .hljs-symbol,
 .hljs-regexp,
 .hljs-link {
-  color: #bf79db;
-}
+  color: #bf79db; }
 
 .hljs-string,
 .hljs-bullet,
@@ -1690,15 +1686,13 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 .hljs-variable,
 .hljs-template-tag,
 .hljs-template-variable {
-  color: #a6e22e;
-}
+  color: #a6e22e; }
 
 .hljs-comment,
 .hljs-quote,
 .hljs-deletion,
 .hljs-meta {
-  color: #75715e;
-}
+  color: #75715e; }
 
 .hljs-keyword,
 .hljs-selector-tag,
@@ -1708,5 +1702,5 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 .hljs-section,
 .hljs-type,
 .hljs-selector-id {
-  font-weight: bold;
-}
+  font-weight: bold; }
+
